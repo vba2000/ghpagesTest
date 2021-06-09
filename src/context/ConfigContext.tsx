@@ -5,13 +5,15 @@ export type ConfigContextType = {
     signerClientUrl: string;
     explorerUrl: string;
     dataServicesUrl: string;
+    iconServiceUrl: string;
 };
 
 export const ConfigContext = createContext<ConfigContextType>({
     nodeUrl: '',
     signerClientUrl: '',
     explorerUrl: '',
-    dataServicesUrl: ''
+    dataServicesUrl: '',
+    iconServiceUrl: ''
 });
 
 ConfigContext.displayName = 'ConfigContext';

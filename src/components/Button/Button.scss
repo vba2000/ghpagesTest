@@ -10,11 +10,15 @@
     background-color: transparent;
     color: #5a81ea;
     cursor: pointer;
+    margin-top: 32px;
     &.btn_primary {
         color: #fff;
         background-color: #5a81ea;
     }
     &.big {
+        height: 56px;
         width: 100%;
+        font-size: 18px;
+        font-weight: 500;
     }
 }

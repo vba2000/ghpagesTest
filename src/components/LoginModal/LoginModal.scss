@@ -25,6 +25,10 @@
   border: #dae1e9 solid 1px;
   background-color: #fff;
   text-align: left;
+  cursor: pointer;
+  &:hover {
+    background-color: #dae1e9;
+  }
   &::after {
     content: '';
     position: absolute;

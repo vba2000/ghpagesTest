@@ -16,6 +16,7 @@
     "@waves/balances": "^0.0.2",
     "@waves/bignumber": "^1.1.1",
     "@waves/signer": "^1.0.2",
+    "@waves/waves-transactions": "^4.1.9-beta.5",
     "node-sass": "4.14.1",
     "papaparse": "^5.3.1",
     "react": "^17.0.2",

@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.content {
+    padding-top: 64px;
+}
+
 .form__row {
     margin-top: 20px;
     display: flex;
@@ -43,4 +47,8 @@
         min-height: 120px;
         resize: vertical;
     }
+}
+
+.transparent {
+    opacity: 0;
 }
