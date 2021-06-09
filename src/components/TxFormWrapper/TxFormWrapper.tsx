@@ -4,7 +4,7 @@ import './TxFormWrapper.scss';
 import { Button } from '../Button/Button';
 
 interface TxFormWrapperProps {
-    onConfirm: () => void;
+    onConfirm: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
     title?: string;
     handleLogout?: () => void;
     confirmText?: string;
@@ -22,6 +22,5 @@ export const TxFormWrapper: React.FC<TxFormWrapperProps> = ({ title, handleLogou
 
         {children}
 
-        <Button className='big' variant='primary' onClick={onConfirm}>{confirmText}</Button>
     </form>
 );

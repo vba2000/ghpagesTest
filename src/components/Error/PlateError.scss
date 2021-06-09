@@ -1,0 +1,11 @@
+.plate {
+    padding: 16px;
+    border: 1px #e5494d dashed;
+    font-size: 15px;
+    color: #e5494d;
+    margin-top: 16px;
+    border-radius: 4px;
+    &.error {
+        border: 1px #e5494d dashed;
+    }
+}
