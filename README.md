@@ -3,7 +3,7 @@
 ### Build
 
 ```
-npm install && npm run build
+REACT_APP_NETWORKREACT_APP_NETWORK
 ```
 For testnet prod
 ```
